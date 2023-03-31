@@ -288,12 +288,107 @@ main {
 
 }
 
-.icons>i{
+.icons>i {
     font-size: 30px;
     color: #FA4A0C;
     margin: 30px;
 }
 
-.icons{
+.icons {
     gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .header-top-text {
+        font-family: Montserrat;
+        font-size: 17px;
+        font-weight: 700;
+        /* line-height: 36px; */
+        letter-spacing: 0.10000000149011612px;
+        text-align: center;
+        color: #F6F6F6;
+    }
+
+    .header-p {
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+        color: #F6F6F6;
+        width: 290px;
+
+    }
+
+    .btns {
+        display: block;
+    }
+
+    .header_btn-two {
+        height: 68px;
+        width: 236px;
+        border-radius: 30px;
+        padding: 16px 0px 16px 0px;
+        background-color: transparent;
+        border: 2px solid #FA4A0C;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        color: #FA4A0C;
+    }
+
+    .phone-one {
+        width: 300px;
+        left: 100px;
+        top: 520px;
+    }
+
+    .phone-two {
+        width: 100px;
+        height: 250px;
+        left: 290px;
+
+    }
+    .graf {
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+    .box {
+        display: block;
+        justify-content: center;
+    }
+.list-span{
+    font-size: 20px;
+}
+.bo_h{
+    font-size: 21px;
+    width: 320px;
+}
+.main_h{
+    margin-top: 0px;
+    font-size: 20px;
+}
+.main_top_text{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.icons>i{
+    margin: 0px;
+}
 }
