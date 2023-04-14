@@ -280,11 +280,9 @@ main {
 
 .footer-the-end {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
-    line-height: 18px;
     letter-spacing: 0.10000000149011612px;
-    text-align: right;
 
 }
 
@@ -360,38 +358,67 @@ main {
 
     .phone-one {
         width: 300px;
-        left: 100px;
+        left: 0px;
         top: 520px;
     }
 
     .phone-two {
         width: 100px;
         height: 250px;
-        left: 290px;
+        left: 200px;
 
     }
     .graf {
-        margin-top: 250px;
-        margin-left: 100px;
+        margin-top: 280px;
+        margin-left: 60px;
     }
     .box {
         display: block;
         justify-content: center;
     }
   .list-span{
-    font-size: 20px;
+    font-size: 15px;
 }
-.bo_h{
-    font-size: 21px;
-    width: 320px;
+.bo_h {
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    margin: 10px 0px;
+
+
+}
+.box_pcha {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.px;
+    text-align: left;
+    height: 76px;
+    width: 476px;
+    color: #737373;
+
+
 }
 .main_h{
     margin-top: 0px;
     font-size: 20px;
 }
+
+.footer-the-end{
+    margin-top: 10px;
+    text-align: center;
+}
 .main_top_text{
     margin-top: 0px;
     padding: 0px;
+}
+.icons{
+    align-items: center;
 }
 
 .icons>i{
