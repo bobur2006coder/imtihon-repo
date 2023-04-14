@@ -314,19 +314,25 @@ main {
 
 
 @media (max-width:575px) {
+    .list{
+        margin-top: 5px;
+        gap: 0px;
+        justify-content: space-around;
+    }
     .header-top-text {
         font-family: Montserrat;
-        font-size: 17px;
+        font-size: 14px;
         font-weight: 700;
-        /* line-height: 36px; */
-        letter-spacing: 0.10000000149011612px;
+        line-height: 0px;
+        letter-spacing: 0px;
         text-align: center;
         color: #F6F6F6;
     }
 
     .header-p {
+        margin-top: 15px;
         font-family: Poppins;
-        font-size: 19px;
+        font-size: 14px;
         font-weight: 700;
         text-align: center;
         color: #F6F6F6;
@@ -346,7 +352,7 @@ main {
         background-color: transparent;
         border: 2px solid #FA4A0C;
         font-family: Montserrat;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 700;
         text-align: center;
         color: #FA4A0C;
@@ -372,7 +378,7 @@ main {
         display: block;
         justify-content: center;
     }
-.list-span{
+  .list-span{
     font-size: 20px;
 }
 .bo_h{
@@ -391,4 +397,23 @@ main {
 .icons>i{
     margin: 0px;
 }
+.header_btn {
+    height: 68px;
+    width: 236px;
+    border-radius: 30px;
+    padding: 16px 0px 16px 0px;
+    border: none;
+    background-color: #FA4A0C;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: white;
+
+
+
 }
+}
+
